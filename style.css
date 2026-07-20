@@ -54,7 +54,7 @@ body{
 
 
 @media (max-width: 720px) {
-    
+   
     .navbar{
         background-color: blue;
         width: 100%;
@@ -64,6 +64,7 @@ body{
     .container{
         grid-template-columns: repeat(2, 1fr);
          gap: 15px;
+         margin: 0px 2%;
     }
     .container div img{
         align-items: center;
