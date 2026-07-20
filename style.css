@@ -13,11 +13,15 @@ body{
     align-items: center;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    /* border: px solid black; */
 }
 
 .container div{
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin-top: 10px;
     border: 1px solid green;
+    border-radius: 10px;
 }
 
 .container div img{
@@ -30,7 +34,7 @@ body{
 
 .container div p{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     color: black;
 }
 .container div p span{
