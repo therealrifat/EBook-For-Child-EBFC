@@ -3,7 +3,22 @@
   "name": "Magpie",
   "bnRomanize":"(ম্যাগপাই)",
   "bangla":"দোয়েল",
+  "isImg": true,
   "img": "./Image file/birds-Img/magpie.jpg"
+},
+{
+  "name": "Eagle",
+  "bnRomanize":"(ঈগল)",
+  "bangla":"ঈগল",
+  "isImg": false,
+  "img": ""
+  },
+{
+  "name": "Crow",
+  "bnRomanize":"(ক্রো)",
+  "bangla":"কাক",
+  "isImg": false,
+  "img": ""
   },
   {
   "name": "Parrot",
