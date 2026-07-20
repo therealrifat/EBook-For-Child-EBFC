@@ -73,6 +73,7 @@
   "name": "Parrot",
   "bnRomanize":"(প্যারোট)",
   "bangla":"টিয়া", 
+  "isImg": false,
   "img": "url"
   }
   
