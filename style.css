@@ -3,3 +3,23 @@
 body{
     font-family: "Anek Bangla", sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: px solid black; */
+}
+
+.container div{
+    border: 1px solid green;
+}
+
+.container div img{
+    width: 200px;
+    height: 200px;
+}
