@@ -20,10 +20,59 @@
   "isImg": false,
   "img": ""
   },
+{
+  "name": "Martin",
+  "bnRomanize":"(মারটিন)",
+  "bangla":"শালিক",
+  "isImg": false,
+  "img": ""
+  },
+{
+  "name": "Pigeon",
+  "bnRomanize":"(পিজন)",
+  "bangla":"কবুতর",
+  "isImg": false,
+  "img": ""
+  },
+{
+  "name": "Dove",
+  "bnRomanize":"(ডাভ)",
+  "bangla":"ঘুঘু",
+  "isImg": false,
+  "img": ""
+  },
+{
+  "name": "Mynah",
+  "bnRomanize":"(কূকূ)",
+  "bangla":"ময়না",
+  "isImg": false,
+  "img": ""
+  },
+{
+  "name": "Kingfisher",
+  "bnRomanize":"(কিং ফিসার)",
+  "bangla":"মাছরাঙা ",
+  "isImg": false,
+  "img": ""
+  },
+{
+  "name": "Sparrow",
+  "bnRomanize":"(স্পারো)",
+  "bangla":"চড়ুই",
+  "isImg": false,
+  "img": ""
+  },
+{
+  "name": "Kite",
+  "bnRomanize":"(কাইট)",
+  "bangla":"চিল",
+  "isImg": false,
+  "img": ""
+  },
   {
   "name": "Parrot",
-  "bnRomanize":"প্যারোট",
-  "bangla":"টিয়া",
+  "bnRomanize":"(প্যারোট)",
+  "bangla":"টিয়া", 
   "img": "url"
   }
   

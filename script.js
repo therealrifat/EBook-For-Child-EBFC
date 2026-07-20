@@ -16,7 +16,7 @@ async function getdata(){
     for (const arrydata of jsonData) {
         console.log(arrydata.name);
         let pTag = document.createElement('p')
-        pTag.innerText+= arrydata.name
+        pTag.innerText= `${arrydata.name} ${arrydata.bnRomanize} ${arrydata.bangla} `
         
         
         
