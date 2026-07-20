@@ -8,17 +8,18 @@ async function getdata(){
     
     
     for (const arrydata of jsonData) {
-        
        let cardDiv =document.createElement('div');
        let img = document.createElement('img')
-       img.src ='./Image file/birds-Img/magpie.jpg'
+       if(arrydata.isImg){
+           img.src ='./Image file/birds-Img/magpie.jpg'
+       }else{
+         img.src ='./Image file/birds-Img/defult.jpg'
+       }
        img.width ="200"
        let pTag = document.createElement('p')
        pTag.innerText= `${arrydata.name} ${arrydata.bnRomanize} ${arrydata.bangla} `
        
-       
-       
-       
+
        parentDiv.appendChild(cardDiv)
        cardDiv.appendChild(img)
        cardDiv.appendChild(pTag)
