@@ -10,29 +10,29 @@
   "name": "Eagle",
   "bnRomanize":"(ঈগল)",
   "bangla":"ঈগল",
-  "isImg": false,
-  "img": ""
+  "isImg": true,
+  "img": "./Image file/birds-Img/egale.jpg"
   },
 {
   "name": "Crow",
   "bnRomanize":"(ক্রো)",
   "bangla":"কাক",
-  "isImg": false,
-  "img": ""
+  "isImg": true,
+  "img": "./Image file/birds-Img/cro.jpg"
   },
 {
   "name": "Martin",
   "bnRomanize":"(মারটিন)",
   "bangla":"শালিক",
-  "isImg": false,
-  "img": ""
+  "isImg": true,
+  "img": "./Image file/birds-Img/martin.jpg"
   },
 {
   "name": "Pigeon",
   "bnRomanize":"(পিজন)",
   "bangla":"কবুতর",
-  "isImg": false,
-  "img": ""
+  "isImg": true,
+  "img": "./Image file/birds-Img/pigeon.jpg"
   },
 {
   "name": "Dove",
