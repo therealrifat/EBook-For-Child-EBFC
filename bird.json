@@ -1,0 +1,15 @@
+[
+  {
+  "name": "Magpie",
+  "bnRomanize":"ম্যাগপাই",
+  "bangla":"দোয়েল",
+  "img": "url"
+  },
+  {
+  "name": "Parrot",
+  "bnRomanize":"প্যারোট",
+  "bangla":"টিয়া",
+  "img": "url"
+  }
+  
+]
