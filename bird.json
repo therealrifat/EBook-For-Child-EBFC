@@ -24,7 +24,7 @@
   "name": "Martin",
   "bnRomanize":"(মারটিন)",
   "bangla":"শালিক",
-  "isImg": true,
+  "isImg": false,
   "img": ""
   },
 {
@@ -38,8 +38,8 @@
   "name": "Dove",
   "bnRomanize":"(ডাভ)",
   "bangla":"ঘুঘু",
-  "isImg": false,
-  "img": ""
+  "isImg": true,
+  "img": "./Image file/birds-Img/Dove.jpg"
   },
 {
   "name": "Mynah",
@@ -47,6 +47,13 @@
   "bangla":"ময়না",
   "isImg": false,
   "img": ""
+  },
+{
+  "name": "Cuckoo",
+  "bnRomanize":"(কুকূ)",
+  "bangla":"কোকিল",
+  "isImg": true,
+  "img": "./Image file/birds-Img/cuckoo.jpg"
   },
 {
   "name": "Kingfisher",

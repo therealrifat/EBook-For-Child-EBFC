@@ -20,6 +20,15 @@ body{
 }
 
 .container div img{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    
+}
+
+.container div p{
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+.container div p span{
+    color: blue;
 }

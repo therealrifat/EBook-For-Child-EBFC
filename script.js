@@ -11,13 +11,14 @@ async function getdata(){
        let cardDiv =document.createElement('div');
        let img = document.createElement('img')
        if(arrydata.isImg){
-           img.src ='./Image file/birds-Img/magpie.jpg'
+           img.src = arrydata.img
        }else{
          img.src ='./Image file/birds-Img/defult.jpg'
        }
        
        let pTag = document.createElement('p')
-       pTag.innerText= `${arrydata.name} ${arrydata.bnRomanize} ${arrydata.bangla} `
+       
+       pTag.innerHTML= `${arrydata.name} <span> ${arrydata.bnRomanize} </span> ${arrydata.bangla} `
        
 
        parentDiv.appendChild(cardDiv)
