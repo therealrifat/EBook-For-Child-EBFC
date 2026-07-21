@@ -13,7 +13,7 @@ async function getdata(){
        if(arrydata.isImg){
            img.src = arrydata.img
        }else{
-         img.src ='./Image file/birds-Img/defult.jpg'
+         img.src ='./Image-file/birds-Img/defult.jpg'
        }
        
        let pTag = document.createElement('p')
