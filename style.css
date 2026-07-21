@@ -32,7 +32,8 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0px auto;
-    width: 320px;
+    /* border: 1px solid black; */
+    width: 350px;
     
 }
 

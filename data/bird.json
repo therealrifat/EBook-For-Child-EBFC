@@ -59,8 +59,8 @@
   "name": "Kingfisher",
   "bnRomanize":"(কিংফিসার)",
   "bangla":"মাছরাঙা",
-  "isImg": false,
-  "img": ""
+  "isImg": true,
+  "img": "./Image-file/birds-Img/kingfisher.png"
   },
 {
   "name": "Sparrow",
