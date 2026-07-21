@@ -1,7 +1,7 @@
 let parentDiv =document.querySelector('.container')
 
 async function getdata(){
-    let response = await fetch("bird.json");
+    let response = await fetch("./data/bird.json");
     let jsonData = await response.json()
     // console.log(json);
     const dataProces = jsonData[0];
