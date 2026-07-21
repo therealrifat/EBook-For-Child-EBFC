@@ -4,7 +4,7 @@
   "bnRomanize":"(ম্যাগপাই)",
   "bangla":"দোয়েল",
   "isImg": true,
-  "img": "./Image-file/birds-Img/magpie.jpg"
+  "img": "./Image-file/birds-Img/magpie.png"
 },
 {
   "name": "Eagle",
@@ -25,21 +25,21 @@
   "bnRomanize":"(মারটিন)",
   "bangla":"শালিক",
   "isImg": true,
-  "img": "./Image-file/birds-Img/martin.jpg"
+  "img": "./Image-file/birds-Img/martin.png"
   },
 {
   "name": "Pigeon",
   "bnRomanize":"(পিজন)",
   "bangla":"কবুতর",
   "isImg": true,
-  "img": "./Image-file/birds-Img/pigeon.jpg"
+  "img": "./Image-file/birds-Img/pigeon.png"
   },
 {
   "name": "Dove",
   "bnRomanize":"(ডাভ)",
   "bangla":"ঘুঘু",
   "isImg": true,
-  "img": "./Image-file/birds-Img/Dove.jpg"
+  "img": "./Image-file/birds-Img/Dove.png"
   },
 {
   "name": "Mynah",
