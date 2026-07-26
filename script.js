@@ -1,7 +1,10 @@
+let dataJsonList =["./data/bird.json","./data/animals.json",] 
+// console.log(dataListArray)
+
 let parentDiv =document.querySelector('.container')
 
 async function getdata(){
-    let response = await fetch("./data/bird.json");
+    let response = await fetch(dataJsonList[0]);
     let jsonData = await response.json()
     // console.log(json);
     const dataProces = jsonData[0];

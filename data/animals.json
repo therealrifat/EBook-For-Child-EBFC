@@ -3,42 +3,35 @@
   "name": "Tiger",
   "bnRomanize":"( টাইগার )",
   "bangla":"বাঘ",
-  "isImg": true,
+  "isImg": false,
   "img": "./Image file/birds-Img/magpie.jpg"
 },
 {
-  "name": "",
-  "bnRomanize":"( )",
-  "bangla":"",
-  "isImg": true,
-  "img": "./Image file/birds-Img/egale.jpg"
-  },
-{
-  "name": "Crow",
+  "name": "Li",
   "bnRomanize":"(ক্রো)",
   "bangla":"কাক",
-  "isImg": true,
+  "isImg": false,
   "img": "./Image file/birds-Img/cro.jpg"
   },
 {
   "name": "Martin",
   "bnRomanize":"(মারটিন)",
   "bangla":"শালিক",
-  "isImg": true,
+  "isImg": false,
   "img": "./Image file/birds-Img/martin.jpg"
   },
 {
   "name": "Pigeon",
   "bnRomanize":"(পিজন)",
   "bangla":"কবুতর",
-  "isImg": true,
+  "isImg": false,
   "img": "./Image file/birds-Img/pigeon.jpg"
   },
 {
   "name": "Dove",
   "bnRomanize":"(ডাভ)",
   "bangla":"ঘুঘু",
-  "isImg": true,
+  "isImg": false,
   "img": "./Image file/birds-Img/Dove.jpg"
   },
 {
@@ -52,13 +45,13 @@
   "name": "Cuckoo",
   "bnRomanize":"(কুকূ)",
   "bangla":"কোকিল",
-  "isImg": true,
+  "isImg": false,
   "img": "./Image file/birds-Img/cuckoo.jpg"
   },
 {
-  "name": "Kingfisher",
-  "bnRomanize":"(কিংফিসার)",
-  "bangla":"মাছরাঙা",
+  "name": "Lion",
+  "bnRomanize":"(লায়ন)",
+  "bangla":"সিংহ",
   "isImg": false,
   "img": ""
   },
