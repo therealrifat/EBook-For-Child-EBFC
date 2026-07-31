@@ -6,12 +6,24 @@ body{
     background-color: rgb(229, 229, 1);
     
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
 *{
     margin: 0;
     padding: 0;
 }
-.navbar{
-    
+.common-btn{
+    padding: 10px 30px;
+    border: none;
+   background: darkred;
+   color: #fff;
+   margin: 5px;
+   border-radius: 5px;
+}
+.divbar{
+    padding: 8px;
     background-color: red;
     text-align: center;
     color: white;
@@ -59,7 +71,7 @@ body{
 
 @media (max-width: 720px) {
    
-    .navbar{
+    .divbar{
         background-color: blue;
         width: 100%;
         font-size: 15px;

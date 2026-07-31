@@ -1,15 +1,29 @@
 let dataJsonList =["./data/bird.json","./data/animals.json",] 
 const headLine = document.getElementById('title')
-
-
 let parentDiv =document.querySelector('.container')
 
-async function getdata(){
-    let response = await fetch(dataJsonList[1]);
+let nextAndPreValue = 0;
+function increment() {
+    if (nextAndPreValue < dataJsonList.length-1) {
+     nextAndPreValue++
+     getdata(nextAndPreValue)
+    }
+}
+function decrement() {
+    if (nextAndPreValue > 0) {
+     nextAndPreValue--
+     getdata(nextAndPreValue)
+     
+    }
+}
+async function getdata(nextAndPreValue){
+    let response = await fetch(dataJsonList[nextAndPreValue]);
     let jsonData = await response.json()
     // console.log(json);
     
     headLine.innerHTML = `${jsonData[0].titel} <span> ${jsonData[0].bnRomanize} </span> ${jsonData[0].bangla} `
+    
+    parentDiv.innerHTML=''
     for (let i = 1; i < jsonData.length; i++) {
        let cardDiv =document.createElement('div');
        let img = document.createElement('img')
@@ -29,4 +43,4 @@ async function getdata(){
        cardDiv.appendChild(pTag)
     }
 }
-getdata()
+getdata(nextAndPreValue)
