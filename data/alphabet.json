@@ -1,0 +1,17 @@
+[
+  {
+   "titel": "English (ইংলিশ)",
+   "data": "abcdefghijklmnopqrstuvwxyz",
+   "type": "english"
+  },
+  {
+   "titel": "স্বরবর্ণ (বাংলা)",
+   "data": "অআইঈউঊঋএঐওঔ",
+   "type": "vowel"
+ },
+ {
+   "titel": "banejanborn   (বাংলা)",
+   "data": "কখগঘঙচছজঝঞটঠডঢণতথদধনপফবভমযরলশষসহড়ঢ়য়ৎংঃঁ",
+   "type": "consonants"
+ }
+]
