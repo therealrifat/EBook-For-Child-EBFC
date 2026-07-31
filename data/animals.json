@@ -1,4 +1,8 @@
-[
+[{
+  "titel": "Animals",
+  "bnRomanize": "(এনিমল)",
+  "bangla": "জীব-জন্তু"
+},
   {
   "name": "Tiger",
   "bnRomanize":"( টাইগার )",
@@ -7,74 +11,39 @@
   "img": "./Image file/birds-Img/magpie.jpg"
 },
 {
-  "name": "Li",
-  "bnRomanize":"(ক্রো)",
-  "bangla":"কাক",
+  "name": "Lion",
+  "bnRomanize":"লায়ন",
+  "bangla":"সিংহ",
   "isImg": false,
   "img": "./Image file/birds-Img/cro.jpg"
   },
 {
-  "name": "Martin",
-  "bnRomanize":"(মারটিন)",
-  "bangla":"শালিক",
+  "name": "Deer",
+  "bnRomanize":"(ডিয়ার)",
+  "bangla":"হরিণ",
   "isImg": false,
   "img": "./Image file/birds-Img/martin.jpg"
   },
 {
-  "name": "Pigeon",
-  "bnRomanize":"(পিজন)",
-  "bangla":"কবুতর",
+  "name": "Chitah",
+  "bnRomanize":"(চিতা)",
+  "bangla":"চিতা বাঘ",
   "isImg": false,
   "img": "./Image file/birds-Img/pigeon.jpg"
   },
 {
-  "name": "Dove",
-  "bnRomanize":"(ডাভ)",
-  "bangla":"ঘুঘু",
+  "name": "Horse",
+  "bnRomanize":"(হর্স)",
+  "bangla":"ঘোড়া",
   "isImg": false,
   "img": "./Image file/birds-Img/Dove.jpg"
   },
 {
-  "name": "Mynah",
-  "bnRomanize":"(মাইনা)",
-  "bangla":"ময়না",
+  "name": "Elephant",
+  "bnRomanize":"(এলিফ্যান্ট)",
+  "bangla":"হাতি",
   "isImg": false,
   "img": ""
-  },
-{
-  "name": "Cuckoo",
-  "bnRomanize":"(কুকূ)",
-  "bangla":"কোকিল",
-  "isImg": false,
-  "img": "./Image file/birds-Img/cuckoo.jpg"
-  },
-{
-  "name": "Lion",
-  "bnRomanize":"(লায়ন)",
-  "bangla":"সিংহ",
-  "isImg": false,
-  "img": ""
-  },
-{
-  "name": "Sparrow",
-  "bnRomanize":"(স্পারো)",
-  "bangla":"চড়ুই",
-  "isImg": false,
-  "img": ""
-  },
-{
-  "name": "Kite",
-  "bnRomanize":"(কাইট)",
-  "bangla":"চিল",
-  "isImg": false,
-  "img": ""
-  },
-  {
-  "name": "Parrot",
-  "bnRomanize":"(প্যারোট)",
-  "bangla":"টিয়া", 
-  "isImg": false,
-  "img": "url"
   }
   
 ]
