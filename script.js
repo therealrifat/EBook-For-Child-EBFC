@@ -1,6 +1,5 @@
 let dataJsonList =["./data/bird.json","./data/animals.json",] 
-const headLine = document.getElementById('title')
-
+// console.log(dataListArray)
 
 let parentDiv =document.querySelector('.container')
 
@@ -9,19 +8,21 @@ async function getdata(){
     let jsonData = await response.json()
     // console.log(json);
     
-    headLine.innerHTML = `${jsonData[0].titel} <span> ${jsonData[0].bnRomanize} </span> ${jsonData[0].bangla} `
-    for (let i = 1; i < jsonData.length; i++) {
+    
+    
+    for (const arrydata of jsonData) {
+        console.log(arrydata)
        let cardDiv =document.createElement('div');
        let img = document.createElement('img')
-       if(jsonData[i].isImg){
-           img.src = jsonData[i].img
+       if(arrydata.isImg){
+           img.src = arrydata.img
        }else{
          img.src ='./Image-file/birds-Img/defult.jpg'
        }
        
        let pTag = document.createElement('p')
        
-       pTag.innerHTML= `${jsonData[i].name} <span> ${jsonData[i].bnRomanize} </span> ${jsonData[i].bangla} `
+       pTag.innerHTML= `${arrydata.name} <span> ${arrydata.bnRomanize} </span> ${arrydata.bangla} `
        
 
        parentDiv.appendChild(cardDiv)
